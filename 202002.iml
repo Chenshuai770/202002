@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/jar/dom4j-2.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../jar/dom4j-2.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/jar/jaxen-1.1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../jar/jaxen-1.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/jar/joda-time-2.10.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../jar/joda-time-2.10.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/jar/fastjson-1.2.66.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../jar/fastjson-1.2.66.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,11 +46,12 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/jar/jsoup-1.13.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../jar/jsoup-1.13.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="fastjson-1.2.68" level="project" />
   </component>
 </module>
