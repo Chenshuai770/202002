@@ -3,7 +3,7 @@ package com.cs.demo1;
 
 import java.util.Comparator;
 
-public class Student{
+class Student{
     private String name;
     private Integer age;
     public String getName() {

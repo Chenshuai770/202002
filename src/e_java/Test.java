@@ -1,19 +1,27 @@
 package e_java;
 
-import java.awt.*;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        Dimension dimension = new Dimension();
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+
+        Iterator<Integer> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            Integer next = iterator.next();
+            if (next == 3) {
+                iterator.remove();
+            }
+            System.out.println(next);
+        }
 
     }
 
-    public static Set union(Set set1,Set set2){
-        Set result = new HashSet(set1);
-        result.addAll(set2);
-      
-        return result;
-    }
+
 }
