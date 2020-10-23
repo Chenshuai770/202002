@@ -1,4 +1,4 @@
-package 廖雪峰_java.泛型;
+package 廖雪峰_java.泛型.多个泛型;
 
 /**
  * FileName: 多个泛型
@@ -6,11 +6,11 @@ package 廖雪峰_java.泛型;
  * Author:cs
  * Description:
  */
-public class 多个泛型<T,K> {
+public class Main<T,K> {
     private T first;
     private T last;
 
-    public 多个泛型(T first, T last) {
+    public Main(T first, T last) {
         this.first = first;
         this.last = last;
     }

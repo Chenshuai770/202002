@@ -1,4 +1,4 @@
-package 廖雪峰_java.泛型;
+package 廖雪峰_java.泛型.泛型接口;
 
 /**
  * FileName: 泛型接口
