@@ -15,6 +15,7 @@ class Counter{
         }
     }
 
+
     public synchronized void add2(int n){
         count += n;
     }
