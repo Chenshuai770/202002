@@ -7,5 +7,5 @@ package yun.对象和类;
  * Description:小猫类
  * class开头的就是类,本类就是Cat类
  */
-public class Cat {
+public class Cat extends Animal {
 }
